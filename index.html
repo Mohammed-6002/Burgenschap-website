@@ -8,21 +8,30 @@
   <link rel="stylesheet" href="assets/css/styles.css" />
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top border-bottom" data-nav>
+  <nav class="navbar navbar-expand-lg navbar-glass sticky-top">
     <div class="container">
-      <a class="navbar-brand fw-bold brand" href="index.html">Burgerschap</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Toggle navigation">
+      <a class="navbar-brand fw-bold" href="index.html">
+        🌍 Burgerschap
+      </a>
+  
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#nav" aria-controls="nav" aria-expanded="false"
+        aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
+  
       <div class="collapse navbar-collapse" id="nav">
-        <ul class="navbar-nav ms-auto">
+        <ul class="navbar-nav ms-auto align-items-lg-center">
           <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
           <li class="nav-item"><a class="nav-link" href="globalisering.html">Globalisering</a></li>
-          <li class="nav-item"><a class="nav-link" href="handel.html">Int. Handel</a></li>
+          <li class="nav-item"><a class="nav-link" href="handel.html">Handel</a></li>
           <li class="nav-item"><a class="nav-link" href="gevolgen.html">Gevolgen</a></li>
-          <li class="nav-item"><a class="nav-link" href="samenwerking.html">Samenwerking</a></li>
-          <li class="nav-item"><a class="nav-link" href="reflectie.html">Reflectie</a></li>
-          <li class="nav-item"><a class="nav-link" href="mening.html">Mening</a></li>
+          <li class="nav-item"><a class="nav-link" href="samenwerking.html">Samenwerking</a></li>  
+          <li class="nav-item ms-lg-3">
+            <a class="btn btn-primary btn-sm px-3" href="mening.html">
+              Mening
+            </a>
+          </li>
         </ul>
       </div>
     </div>
@@ -55,44 +64,61 @@
   </header>
 
   <main class="container py-5">
-    <div class="text-center mb-4">
-      <h2 class="fw-bold">Waar gaat deze site over?</h2>
-      <p class="text-secondary mb-0">In deze opdracht onderzoek ik de impact van globalisering en handel op ons dagelijks leven.</p>
+    <!-- Intro -->
+    <div class="text-center mb-5 intro-blok p-5 rounded-4">
+      <h2 class="fw-bold mb-3">Waar gaat deze site over?</h2>
+      <p class="text-secondary mb-0 col-lg-8 mx-auto">
+        In deze opdracht onderzoek ik de impact van globalisering en internationale handel
+        op ons dagelijks leven en onze economie.
+      </p>
     </div>
-
+  
+    <!-- Kaarten -->
     <div class="row g-4">
       <div class="col-md-4">
         <a class="text-decoration-none" href="globalisering.html">
-          <div class="card h-100 shadow-sm">
-            <div class="card-body">
+          <div class="card topic-card h-100">
+            <div class="card-body p-4">
+              <span class="badge bg-primary mb-3">Thema 1</span>
               <h3 class="h5 fw-bold">Globalisering</h3>
-              <p class="text-secondary mb-0">Hoe de wereld verbonden is en wat dat voor ons betekent.</p>
+              <p class="text-secondary mb-0">
+                Hoe landen wereldwijd verbonden zijn en wat dit betekent voor mensen en bedrijven.
+              </p>
             </div>
           </div>
         </a>
       </div>
+  
       <div class="col-md-4">
         <a class="text-decoration-none" href="handel.html">
-          <div class="card h-100 shadow-sm">
-            <div class="card-body">
+          <div class="card topic-card h-100">
+            <div class="card-body p-4">
+              <span class="badge bg-success mb-3">Thema 2</span>
               <h3 class="h5 fw-bold">Internationale handel</h3>
-              <p class="text-secondary mb-0">Waarom we handelen, wat we importeren en exporteren.</p>
+              <p class="text-secondary mb-0">
+                Waarom landen handelen, wat ze importeren en exporteren en hoe dit ons raakt.
+              </p>
             </div>
           </div>
         </a>
       </div>
+  
       <div class="col-md-4">
         <a class="text-decoration-none" href="gevolgen.html">
-          <div class="card h-100 shadow-sm">
-            <div class="card-body">
+          <div class="card topic-card h-100">
+            <div class="card-body p-4">
+              <span class="badge bg-danger mb-3">Scenario</span>
               <h3 class="h5 fw-bold">Het doemscenario</h3>
-              <p class="text-secondary mb-0">Wat gebeurt er als grenzen dichtgaan en de handel stopt?</p>
+              <p class="text-secondary mb-0">
+                Wat gebeurt er als grenzen sluiten en internationale handel stopt?
+              </p>
             </div>
           </div>
         </a>
       </div>
     </div>
   </main>
+  
 
   <footer class="border-top py-4">
     <div class="container text-center text-secondary small">
